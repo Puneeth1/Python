@@ -1,7 +1,7 @@
 import argparse
 
 parser = argparse.ArgumentParser(
-    description='sum the integers at the command line')
+    description='Prints the full name')
 
 parser.add_argument("firstname", type=str)
 parser.add_argument("lastname", type=str)
